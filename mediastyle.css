@@ -1,0 +1,107 @@
+* {
+	font-family: Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background-color: grey;
+	top: 0;
+	width: 100%;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	border-bottom: 3px solid darkgoldenrod;
+}
+
+nav h1 {
+	color: firebrick;
+	justify-content: safe left;
+	font-size: 35px;
+}
+nav img {
+	justify-content: left;
+	width: 100px;
+}
+
+.navlinks ul li {
+	list-style: none;
+	display: inline;
+	padding: 12px;
+}
+
+.navlinks ul li a {
+	padding: 10px 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: firebrick;
+	color: white;
+	text-decoration: none;
+}
+
+li a:hover {
+  background-color: darkgrey;
+}
+
+article {
+	background-color: lightgrey;
+	text-align: center;
+	padding: 120px 130px 60px 110px;
+	margin: 175px 20px 10px 30px;
+	width: 280px;
+	float: left;
+	height: 100px;
+}
+
+article p {
+	position: relative;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	top: -50px;
+	color: darkgoldenrod;
+}
+
+#spotify {
+	width: 190px;
+	position: relative;
+	top: -100px;
+}
+#apple {
+	width: 230px;
+	position: relative;
+	top: -100px;
+}
+#insta {
+	width: 75px;
+	position: relative;
+	top: -100px;
+}
+#youtube {
+	width: 180px;
+	position: relative;
+	top: -100px;
+}
+
+#bottomleft {
+	margin: 20px 20px 45px 600px;
+}
+
+#bottomright {
+	margin: -325px 20px 10px 30px;
+}
+article:hover {
+  background-color: darkgrey;
+}
+
+footer {
+	display: block;
+	border-top: 3px solid darkgoldenrod;
+}
+
+#foot {
+		padding-top: 30px;
+		margin-left: 30px;
+		margin-bottom: 30px;
+}
